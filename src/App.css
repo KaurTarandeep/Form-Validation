@@ -1,0 +1,78 @@
+.inline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 250px;
+}
+
+.product{
+  background-image: url("imgs/tshirt.jpg");
+  height: 200px;
+  width: 180px;
+  border: 5px solid #1d1b1b
+}
+
+.align{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  padding: 100px
+}
+
+.outer{
+  background-color: #a6a6a6;
+  margin: -10px;
+  padding: 20px;
+}
+.container{
+  border-radius: 10px;
+  height: 600px;
+  width: 600px;
+  background-color: white;
+  padding: 30px;
+  font-family: sans-serif;
+  margin: auto;
+  /* padding: 50px; */
+}
+label{
+  font-size: 20px;
+}
+.container h1{
+  font-size: 36px;
+}
+
+h1 .img{
+  background-image: url("imgs/close.png");
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+}
+.container input, textarea, select{
+  border-radius: 5px;
+  width: 590px;
+  height: 40px;
+  font-size: 19px;
+  padding-left: 10px;
+}
+
+textarea{
+  height: 150px
+}
+textarea:hover{
+  box-shadow: 0 0 0.30em 0.30em rgb(2, 138, 242, 0.25);
+}
+
+.container button{
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #0160f9;
+}
+
+.error{
+  color: #c50202;
+  padding: 10px;
+}
